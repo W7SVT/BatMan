@@ -6,7 +6,7 @@
 
 - **Wired Ethernet Connectivity**: Leverages the built-in Ethernet capabilities of the LILYGO® TTGO T-Internet-POE to connect to your network, providing a reliable, wired communication channel without the need for WiFi.
 - **SNMP Integration**: Implements SNMP to report real-time battery voltage data to an SNMP manager, allowing integration with network management systems like PRTG, Zabbix, or any SNMP-compatible tool.
-- **Continuous Monitoring**: Periodically reads battery voltage levels via the ESP32's ADC (Analog-to-Digital Converter) and transmits the data over the network for monitoring and alerting purposes.
+- **Continuous Monitoring**: Periodically reads battery voltage, current, and power consumption levels using the INA219 I2C Bi-Directional DC Current/Power Monitoring Sensor Module and transmits the data over the network for monitoring and alerting purposes.
 - **Customizable Update Frequency**: Allows users to set the interval for SNMP updates to fit the specific needs of their deployment environment.
 - **Note**: Future updates to BatMan will include additional features such as relay control and enhanced battery management capabilities. Stay tuned for more improvements!
 
